@@ -51,18 +51,20 @@ export default function Profile() {
           <i className="fas fa-share-alt" /> Share Profile
         </Link>
       </div>
+
+
+      
       {allMessages.length === 0 ? (
-        <div className="card py-5">
+        <div  className="card py-5">
           <p>You don't have any messages...</p>
         </div>
-      ) : (
-        allMessages.map((ele, index) => (
+      ) :""}
+      { allMessages.map((ele) => (
           <div key={ele.id} className="card py-5">
-            <p>{ele.message}</p>
+            <p>{ele.messageContent}</p>
           </div>
         ))
-      )}
+      }
     </div>
   );
 }
-
