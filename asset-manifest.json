@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sarahaApp-react-/static/css/main.714e2bba.css",
+    "main.js": "/sarahaApp-react-/static/js/main.5836bb21.js",
+    "static/js/787.1e247847.chunk.js": "/sarahaApp-react-/static/js/787.1e247847.chunk.js",
+    "static/media/fa-solid-900.ttf": "/sarahaApp-react-/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/sarahaApp-react-/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/sarahaApp-react-/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/sarahaApp-react-/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/sarahaApp-react-/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/sarahaApp-react-/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/avatar.png": "/sarahaApp-react-/static/media/avatar.6ed5e914bdf4cea318a0.png",
+    "static/media/fa-v4compatibility.ttf": "/sarahaApp-react-/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/sarahaApp-react-/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/logo.svg": "/sarahaApp-react-/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sarahaApp-react-/index.html",
+    "main.714e2bba.css.map": "/sarahaApp-react-/static/css/main.714e2bba.css.map",
+    "main.5836bb21.js.map": "/sarahaApp-react-/static/js/main.5836bb21.js.map",
+    "787.1e247847.chunk.js.map": "/sarahaApp-react-/static/js/787.1e247847.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.714e2bba.css",
+    "static/js/main.5836bb21.js"
+  ]
+}
