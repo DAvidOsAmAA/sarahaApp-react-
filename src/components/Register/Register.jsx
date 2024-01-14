@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from './Register.module.css'
+import './Register.module.css'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 import axios from 'axios'
@@ -127,9 +127,6 @@ export default function Register() {
 
 
 
-
-
-
         <div className="form-group mb-3">
           <label htmlFor="rePassword">rePassword</label>
           <input type="password" id='rePassword' className='form-control' onBlur={formik.handleBlur} name='rePassword' value={formik.values.rePassword} onChange={formik.handleChange} />
@@ -145,8 +142,9 @@ export default function Register() {
           </div> : " "}
         </div>
         <div>
-          <button type='submit' className='btn btn-default-outline btn-primary d-block mx-auto mx-auto '>
-            Register</button>
+          <button type='submit' className='btn btn-default-outline btn-light d-block mx-auto mx-auto border border-primary '>
+            {isloading ? <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i> : <><i className='far fa-edit '></i>Register</>}
+          </button>
         </div>
       </form>
     </div>

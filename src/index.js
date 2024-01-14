@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import TokenContextProvider from './context/tokenContext';
 
 

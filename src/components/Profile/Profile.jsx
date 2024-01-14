@@ -18,7 +18,7 @@ export default function Profile() {
         headers: {
           token: localStorage.getItem("setToken")
         }
-        
+
       });
       setallMessages(response.data.allMessages);
     } catch (error) {
@@ -43,27 +43,26 @@ export default function Profile() {
           <img src={avatarImg} className="avatar" alt="" />
         </a>
         <h3 className="py-2">David</h3>
-        <Link
-          to={'/message/' + userId}
-          data-target="#share"
-          className="btn btn-default-outline share"
-        >
-          <i className="fas fa-share-alt" /> Share Profile
+        
+        <Link to={'/message/' + userId}data-target="#share"className="btn btn-default-outline share bg-dark text-light">
+          <i className="fas fa-share-alt me-2 " /> 
+          Share Profile
         </Link>
+      
       </div>
 
 
-      
+
       {allMessages.length === 0 ? (
-        <div  className="card py-5">
+        <div className="card py-5">
           <p>You don't have any messages...</p>
         </div>
-      ) :""}
-      { allMessages.map((ele) => (
-          <div key={ele.id} className="card py-5">
-            <p>{ele.messageContent}</p>
-          </div>
-        ))
+      ) : ""}
+      {allMessages.map((ele) => (
+        <div key={ele.id} className="card py-5">
+          <p>{ele.messageContent}</p>
+        </div>
+      ))
       }
     </div>
   );

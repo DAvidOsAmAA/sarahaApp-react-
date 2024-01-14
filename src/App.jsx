@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
@@ -30,6 +31,7 @@ useEffect(()=>{
 
 const routes =createBrowserRouter([{
   path:"",element:<Layout/>,children:[
+    { path: '', element: <Register /> },
     {path:"register",element:<Register/>},
     {path:"login",element:<Login/>},
     {path:"profile",element:<ProtectedRoutes><Profile/></ProtectedRoutes>},
